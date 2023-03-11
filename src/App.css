@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-body {
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #222;
+}
+
+html,
+body {
+  font-size: 14pt;
+  background: #171717;
+  color: #ededed;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+li {
+  background: rgba(31, 31, 31, 0.9);
+  border-radius: 1vh;
+  box-shadow: 2px 3px rgba(71, 71, 71, 0.5);
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+.logo {
+  margin: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+}
+
+p {
+  color: rgb(216, 216, 216);
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+.main-search {
+  padding: 10% 15%;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+label {
+  font-weight: bold;
+}
+
+li a:link {
+  color: #70b3ff;
+}
+
+li a:visited {
+  font-style: italic;
+  color: #7ea4cf;
+}
+
+li a:hover {
+  font-style: normal;
+  color: #2b8eff;
+}
+
+li a:active {
+  color: #2b8eff;
+}
+
+.banner {
+  width: auto;
+  height: 40%;
+  display: block;
+  margin: auto;
+}
+
+::placeholder {
+  color: #dadada;
+}
+
+.searchbar {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 84%;
+  font-size: large;
+  background-color: grey;
+  color: #dadada;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.btn-submit {
+  border: 2px solid red;
+  font-size: 20px;
+  width: 15%;
+  border-radius: 5px;
+  padding: 15px 20px;
+  background-color: #8bc34a;
+  color: #ededed;
+}
+
+.title {
+  color: #ededed;
+  text-align: center;
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+}
+
+.title-search {
+  color: #ededed;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 2%;
+}
+
+.center-cropped-search {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(48, 35, 35, 0.6), rgba(0, 0, 0, 0.9)),
+    url("https://wallpapers.com/images/featured/plzcoaffexgf4h81.jpg") no-repeat
+      center 20%;
+  display: table;
+}
+
+.center-cropped {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(48, 35, 35, 0.5), rgba(0, 0, 0, 0.8)),
+    url("https://wallpapers.com/images/featured/plzcoaffexgf4h81.jpg") no-repeat
+      center top;
+  display: table;
+}
+
+.footer {
+  background-color: black;
+  color: #ededed;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+
+.footer-link {
+  display: block;
+  font-weight: bold;
+  padding: 2% 0%;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #ededed;
+}
+
+.footer-link:hover {
+  color: #dfdfdf;
+}
+
+.error,
+.not-found {
+  text-align: center;
+}
+
+.header-link {
+  background-color: #171717;
+  color: #ededed;
+  display: inline-block;
+  text-decoration: none;
+  padding: 24px 15px;
+}
+
+.header {
+  display: flex;
+  height: 70px;
+}
+
+.navigation-option {
+  margin-left: 15px;
+}
+
+.header-link:hover {
+  background-color: #292929;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.divider {
+  height: 2px;
+  background-color: #da0037;
+  margin-bottom: 10px;
+}
+
+.center-cropped-image {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(218, 218, 218);
+}
+
+.search {
+  width: 80%;
+  padding: 10px 10px;
+}
